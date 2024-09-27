@@ -4,7 +4,6 @@ import ApiService
 import com.ip.locator.data.remote.response.IPAddressResponse
 import com.ip.locator.data.remote.response.NetworkError
 import com.ip.locator.data.remote.response.Results
-import io.ktor.client.HttpClient
 import io.ktor.http.HttpMethod
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
