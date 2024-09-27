@@ -57,8 +57,8 @@ kotlin {
             implementation(compose.material3)
             implementation(libs.voyager)
             implementation(libs.voyager.koin)
-            implementation("co.touchlab:stately-common:2.0.5")
-            implementation("co.touchlab:stately-concurrent-collections:2.0.6" )
+            implementation(libs.touchlab.stately.common)
+            implementation(libs.touchlab.stately.concurrent )
 
         }
         nativeMain.dependencies {
