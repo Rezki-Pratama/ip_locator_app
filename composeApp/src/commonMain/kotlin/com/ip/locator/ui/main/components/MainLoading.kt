@@ -35,8 +35,9 @@ fun MainLoading() {
             .verticalScroll(rememberScrollState())
             .fillMaxWidth()
     ) {
-        Row {
+        Column {
             Text(text = "IP Address : ")
+            Spacer(modifier = Modifier.height(2.dp))
             Box(
                 modifier = Modifier
                     .width(100.dp)
@@ -45,8 +46,9 @@ fun MainLoading() {
                     .background(shimmerBrush(targetValue = 1300f, showShimmer = true))
             ){}
         }
-        Row {
+        Column {
             Text(text = "Country : ")
+            Spacer(modifier = Modifier.height(2.dp))
             Box(
                 modifier = Modifier
                     .width(120.dp)
@@ -55,8 +57,9 @@ fun MainLoading() {
                     .background(shimmerBrush(targetValue = 1300f, showShimmer = true))
             ){}
         }
-        Row {
+        Column {
             Text(text = "Country Code : ")
+            Spacer(modifier = Modifier.height(2.dp))
             Box(
                 modifier = Modifier
                     .width(120.dp)
@@ -65,8 +68,9 @@ fun MainLoading() {
                     .background(shimmerBrush(targetValue = 1300f, showShimmer = true))
             ){}
         }
-        Row {
+        Column {
             Text(text = "Region Name : ")
+            Spacer(modifier = Modifier.height(2.dp))
             Box(
                 modifier = Modifier
                     .width(100.dp)
@@ -75,8 +79,9 @@ fun MainLoading() {
                     .background(shimmerBrush(targetValue = 1300f, showShimmer = true))
             ){}
         }
-        Row {
+        Column {
             Text(text = "Region : ")
+            Spacer(modifier = Modifier.height(2.dp))
             Box(
                 modifier = Modifier
                     .width(70.dp)
@@ -85,8 +90,9 @@ fun MainLoading() {
                     .background(shimmerBrush(targetValue = 1300f, showShimmer = true))
             ){}
         }
-        Row {
+        Column {
             Text(text = "Continent : ")
+            Spacer(modifier = Modifier.height(2.dp))
             Box(
                 modifier = Modifier
                     .width(60.dp)
@@ -95,8 +101,9 @@ fun MainLoading() {
                     .background(shimmerBrush(targetValue = 1300f, showShimmer = true))
             ){}
         }
-        Row {
+        Column {
             Text(text = "Continent Code : ")
+            Spacer(modifier = Modifier.height(2.dp))
             Box(
                 modifier = Modifier
                     .width(120.dp)
@@ -105,18 +112,9 @@ fun MainLoading() {
                     .background(shimmerBrush(targetValue = 1300f, showShimmer = true))
             ){}
         }
-        Row {
-            Text(text = "District : ")
-            Box(
-                modifier = Modifier
-                    .width(60.dp)
-                    .height(15.dp)
-                    .clip(RoundedCornerShape(5.dp, 5.dp, 5.dp, 5.dp))
-                    .background(shimmerBrush(targetValue = 1300f, showShimmer = true))
-            ){}
-        }
-        Row {
+        Column {
             Text(text = "City : ")
+            Spacer(modifier = Modifier.height(2.dp))
             Box(
                 modifier = Modifier
                     .width(120.dp)
@@ -125,18 +123,9 @@ fun MainLoading() {
                     .background(shimmerBrush(targetValue = 1300f, showShimmer = true))
             ){}
         }
-        Row {
-            Text(text = "Zip : ")
-            Box(
-                modifier = Modifier
-                    .width(60.dp)
-                    .height(15.dp)
-                    .clip(RoundedCornerShape(5.dp, 5.dp, 5.dp, 5.dp))
-                    .background(shimmerBrush(targetValue = 1300f, showShimmer = true))
-            ){}
-        }
-        Row {
+        Column {
             Text(text = "Timezone : ")
+            Spacer(modifier = Modifier.height(2.dp))
             Box(
                 modifier = Modifier
                     .width(60.dp)
@@ -145,8 +134,9 @@ fun MainLoading() {
                     .background(shimmerBrush(targetValue = 1300f, showShimmer = true))
             ){}
         }
-        Row {
+        Column {
             Text(text = "ISP : ")
+            Spacer(modifier = Modifier.height(2.dp))
             Box(
                 modifier = Modifier
                     .width(60.dp)
@@ -155,8 +145,9 @@ fun MainLoading() {
                     .background(shimmerBrush(targetValue = 1300f, showShimmer = true))
             ){}
         }
-        Row {
+        Column {
             Text(text = "As : ")
+            Spacer(modifier = Modifier.height(2.dp))
             Box(
                 modifier = Modifier
                     .width(60.dp)
