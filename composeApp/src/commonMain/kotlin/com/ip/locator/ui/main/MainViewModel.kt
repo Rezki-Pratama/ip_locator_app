@@ -30,14 +30,9 @@ class MainViewModel(
             it.copy(isLoading = true)
         }
 
-        println("KWKWKWKW 1")
-
-
-
         screenModelScope.launch {
             useCase.searchIpAddress(event.query)
                 .collect { result ->
-                    print(result.toString())
                     when (result) {
                         is Results.Success -> {
                             _state.update {
